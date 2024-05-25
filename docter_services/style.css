@@ -1,0 +1,133 @@
+/* General Styles */
+body {
+    margin: 0;
+    background-color: #e8f5e9; /* Light green background */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    color: #37b182; /* Custom green color for headings */
+}
+
+section {
+    height: 100%;
+    background-color: #ffffff; /* White background for content area */
+    display: flex;
+    justify-content: center;
+    padding: 20px; /* Added padding for breathing space */
+}
+
+section .container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    margin: 40px;
+    margin-top: 60px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+}
+
+section .container h2 {
+    color: #37b182; /* Custom green color for subheadings */
+    text-align: center;
+}
+
+/* Form Styles */
+section .container .form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap; /* Ensures responsiveness */
+}
+
+section .container .left-form,
+section .container .right-form {
+    margin: auto;
+}
+
+section .container .info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    max-width: 100%;
+}
+
+/* Form Input Styles */
+label {
+    color: #37b182; /* Custom green color for labels */
+    margin: 10px 0;
+}
+
+input, select {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    background-color: #f1f8e9; /* Very light green for inputs */
+    border: 1px solid #a5d6a7; /* Light green border */
+    width: 100%;
+    height: 40px;
+    padding: 6px;
+    color: #37b182; /* Custom green color for text */
+    margin-bottom: 10px; /* Adds space between inputs */
+}
+
+button {
+    background-color: #37b182; /* Custom green color for buttons */
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px 20px;
+    width: calc(100% - 40px);
+    font-size: 16px;
+    border: none;
+}
+
+button:hover {
+    background-color: #2d8c6c; /* Darker shade of custom green on hover */
+}
+
+/* Schedule Styles */
+.schedule {
+    width: 80%;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.schedule table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.schedule th {
+    background-color: #37b182; /* Custom green color for table header */
+    color: #fff;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+.schedule td {
+    padding: 12px 15px;
+    border-bottom: 1px solid #c8e6c9; /* Light green for table borders */
+    vertical-align: middle;
+}
+
+.schedule tbody tr:nth-child(even) {
+    background-color: #f1f8e9; /* Very light green for alternating rows */
+}
+
+.schedule tbody tr:hover {
+    background-color: #e0f2f1; /* Light teal on hover */
+}
+
+/* Media Query for larger screens */
+@media(min-width:992px) {
+    .form {
+        display: flex;
+    }
+}

@@ -1,0 +1,90 @@
+/* Media Query */
+@media(min-width:992px) {
+    .form {
+        display: flex;
+    }
+}
+
+/* General Styles */
+body {
+    margin: 0;
+    
+    background-color: #000000;
+}
+
+section {
+    height: 100%;
+    background-color: #f0f9ff;
+    display: flex;
+    justify-content: center;
+}
+
+section .container {
+    background-color: white;
+    border-radius: 20px;
+    margin: 40px;
+}
+
+section .container h2 {
+    color: #4d5a69;
+    text-align: center;
+}
+
+/* Form Styles */
+section .container .form {
+    justify-content: center;
+    align-items: center;
+}
+
+section .container .left-form,
+section .container .right-form {
+    margin: auto;
+}
+
+section .container .info {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: -0.2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+/* Form Input Styles */
+label {
+    color: #4d5a69;
+    margin: 10px;
+}
+
+input, select {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-radius: 5px;
+    background-color: #f0f9ff;
+    border: 1px solid #a1a1aa;
+    width: 100%; /* Changed */
+    height: 40px;
+    padding: 6px;
+    color: #4d5a69;
+}
+
+/* IDK WHY */
+select {
+    width: 100%; /* Changed */
+    height: 50px; /* Changed */
+    padding: 7px;
+    border: 1px solid #a1a1aa;
+}
+
+button {
+    background-color: #0369a1;
+    color: white;
+    padding: 14px 20px; /* Adjusted */
+    cursor: pointer;
+    border-radius: 10px;
+    margin: 10px 20px; /* Adjusted */
+    width: calc(100% - 40px);
+    font-size: 16px;
+    border: none;
+}
+
