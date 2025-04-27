@@ -27,23 +27,43 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
 <style>
   .scrollable-container {
     display: flex;
-    overflow-x: scroll;
-    scroll-behavior: smooth;
-    gap: 10px;
-    padding: 10px;
-    max-width: 100%;
+    overflow: hidden;  /* Hides the scrollbars */
+    width: 100%;  /* Adjust the container's width */
+    justify-content: start;
+    margin-bottom: 20px;
+  }
+
+  .scrollable-container img {
+    width: 100%;  /* Make the images take full width of the container */
+    max-width: 500px;  /* Set max width for the image size */
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.9;  /* Make the images slightly transparent */
+  }
+
+  .scrollable-container:hover img {
+    transform: scale(1.05);  /* Slight zoom effect */
+  }
+
+  /* Container behavior to create sliding effect */
+  .scrollable-container {
+    display: flex;
+    animation: slide 20s infinite linear;
   }
 
   .scrollable-container img {
     flex-shrink: 0;
-    width: 300px;  /* Adjust based on desired image size */
-    height: auto;
-    transition: transform 0.3s ease-in-out;
-    margin-right: 10px;
+    transition: transform 0.5s ease-in-out;
   }
 
-  .scrollable-container img:hover {
-    transform: scale(1.1); /* Slight zoom effect on hover */
+  /* Slide the images horizontally */
+  @keyframes slide {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
   }
 </style>
 
