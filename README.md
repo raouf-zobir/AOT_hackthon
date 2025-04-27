@@ -1,16 +1,17 @@
 # 🌟 Smart Healthcare Assistant 🌟
 
-## Images
-
-<div style="overflow-x: auto; white-space: nowrap; padding-bottom: 20px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/HomePage.png" alt="Home Page" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/DarkMode.png" alt="Dark Mode" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/ContactUs.png" alt="Contact Us" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Login.png" alt="Login" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/SignUp.png" alt="Sign Up" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" alt="Features" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Schdule.png" alt="Schedule" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+<div align="center" style="overflow-x: auto; white-space: nowrap; padding-bottom: 20px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/main/images/HomePage.png" alt="Home Page" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/main/images/DarkMode.png" alt="Dark Mode" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/main/images/ContactUs.png" alt="Contact Us" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/main/images/Login.png" alt="Login" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/main/images/SignUp.png" alt="Sign Up" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/main/images/Features.png" alt="Features" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/main/images/Schdule.png" alt="Schedule" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
 </div>
+
+---
+
 
 ## An All-in-One Platform for Smarter Healthcare
 
