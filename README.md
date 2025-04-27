@@ -2,14 +2,14 @@
 
 ## Images
 
-<div class="scrollable-container">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/HomePage.png" alt="Home Page">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/DarkMode.png" alt="Dark Mode">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/ContactUs.png" alt="Contact Us">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Login.png" alt="Login">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/SignUp.png" alt="Sign Up">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" alt="Features">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Schdule.png" alt="Schedule">
+<div style="overflow-x: auto; white-space: nowrap; padding-bottom: 20px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/HomePage.png" alt="Home Page" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/DarkMode.png" alt="Dark Mode" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/ContactUs.png" alt="Contact Us" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Login.png" alt="Login" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/SignUp.png" alt="Sign Up" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" alt="Features" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Schdule.png" alt="Schedule" style="display: inline-block; width: 300px; height: auto; margin-right: 10px;">
 </div>
 
 ## An All-in-One Platform for Smarter Healthcare
@@ -25,26 +25,6 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
 <p align="center">
   <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" width="600" alt="Features Overview">
 </p>
-
-<style>
-  .scrollable-container {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-    margin-bottom: 20px;
-  }
-
-  .scrollable-container img {
-    width: 300px; /* Adjust the width of the images */
-    height: auto;
-    flex-shrink: 0;
-    transition: transform 0.3s ease-in-out;
-  }
-
-  .scrollable-container img:hover {
-    transform: scale(1.05); /* Slight zoom effect */
-  }
-</style>
 
 **Patients:**
 
@@ -104,4 +84,12 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
 
 ## Contact
 
-Questions? See the "Contact Me" page on the pl
+Questions? See the "Contact Me" page on the platform.
+
+📞 Call Us: +213 540553447  
+📧 Email: aotdevimpact@gmail.com  
+🏢 Office: Algiers
+
+---
+
+Thanks for using **Smart Healthcare Assistant**! 🚀
