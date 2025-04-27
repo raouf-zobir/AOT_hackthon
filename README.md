@@ -1,13 +1,13 @@
 # 🌟 Smart Healthcare Assistant 🌟
 
 <div class="scrollable-container">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/ContactUs.png" alt="Contact Us">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/DarkMode.png" alt="Dark Mode">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" alt="Features">
   <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/HomePage.png" alt="Home Page">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/DarkMode.png" alt="Dark Mode">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/ContactUs.png" alt="Contact Us">
   <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Login.png" alt="Login">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Schdule.png" alt="Schedule">
   <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/SignUp.png" alt="Sign Up">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" alt="Features">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Schdule.png" alt="Schedule">
 </div>
 
 ## An All-in-One Platform for Smarter Healthcare
@@ -24,8 +24,6 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
   <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" width="600" alt="Features Overview">
 </p>
 
-
-
 <style>
   .scrollable-container {
     display: flex;
@@ -33,6 +31,7 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
     scroll-behavior: smooth;
     gap: 10px;
     padding: 10px;
+    max-width: 100%;
   }
 
   .scrollable-container img {
@@ -40,9 +39,10 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
     width: 300px;  /* Adjust based on desired image size */
     height: auto;
     transition: transform 0.3s ease-in-out;
+    margin-right: 10px;
   }
 
-  .scrollable-container:hover img {
+  .scrollable-container img:hover {
     transform: scale(1.1); /* Slight zoom effect on hover */
   }
 </style>
@@ -108,7 +108,7 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
 Questions? See the "Contact Me" page on the platform.
 
 📞 Call Us: +213 540553447  
-📧 Email: aotdevimpact@gmail.com
+📧 Email: aotdevimpact@gmail.com  
 🏢 Office: Algiers
 
 ---
