@@ -1,5 +1,7 @@
 # 🌟 Smart Healthcare Assistant 🌟
 
+## Images
+
 <div class="scrollable-container">
   <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/HomePage.png" alt="Home Page">
   <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/DarkMode.png" alt="Dark Mode">
@@ -27,43 +29,20 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
 <style>
   .scrollable-container {
     display: flex;
-    overflow: hidden;  /* Hides the scrollbars */
-    width: 100%;  /* Adjust the container's width */
-    justify-content: start;
+    overflow-x: auto;
+    gap: 10px;
     margin-bottom: 20px;
   }
 
   .scrollable-container img {
-    width: 100%;  /* Make the images take full width of the container */
-    max-width: 500px;  /* Set max width for the image size */
-    object-fit: cover;
-    transition: transform 0.3s ease-in-out;
-    opacity: 0.9;  /* Make the images slightly transparent */
-  }
-
-  .scrollable-container:hover img {
-    transform: scale(1.05);  /* Slight zoom effect */
-  }
-
-  /* Container behavior to create sliding effect */
-  .scrollable-container {
-    display: flex;
-    animation: slide 20s infinite linear;
-  }
-
-  .scrollable-container img {
+    width: 300px; /* Adjust the width of the images */
+    height: auto;
     flex-shrink: 0;
-    transition: transform 0.5s ease-in-out;
+    transition: transform 0.3s ease-in-out;
   }
 
-  /* Slide the images horizontally */
-  @keyframes slide {
-    0% {
-      transform: translateX(0);
-    }
-    100% {
-      transform: translateX(-100%);
-    }
+  .scrollable-container img:hover {
+    transform: scale(1.05); /* Slight zoom effect */
   }
 </style>
 
@@ -125,12 +104,4 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
 
 ## Contact
 
-Questions? See the "Contact Me" page on the platform.
-
-📞 Call Us: +213 540553447  
-📧 Email: aotdevimpact@gmail.com  
-🏢 Office: Algiers
-
----
-
-Thanks for using **Smart Healthcare Assistant**! 🚀
+Questions? See the "Contact Me" page on the pl
