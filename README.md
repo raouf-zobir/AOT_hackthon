@@ -1,9 +1,14 @@
-
 # 🌟 Smart Healthcare Assistant 🌟
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/HomePage.png" width="250" alt="Smart Healthcare Assistant">
-</p>
+<div class="scrollable-container">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/ContactUs.png" alt="Contact Us">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/DarkMode.png" alt="Dark Mode">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" alt="Features">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/HomePage.png" alt="Home Page">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Login.png" alt="Login">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Schdule.png" alt="Schedule">
+  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/SignUp.png" alt="Sign Up">
+</div>
 
 ## An All-in-One Platform for Smarter Healthcare
 
@@ -19,18 +24,28 @@ Welcome to the Smart Healthcare Assistant, a revolutionary platform designed to 
   <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" width="600" alt="Features Overview">
 </p>
 
-### Scrollable Images:
 
-<div style="overflow-x: auto; white-space: nowrap;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/ContactUs.png" alt="Contact Us" style="max-width: none; height: auto; margin-right: 10px;">
 
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/DarkMode.png" alt="Dark Mode" style="max-width: none; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Features.png" alt="Features" style="max-width: none; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/HomePage.png" alt="Home Page" style="max-width: none; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Login.png" alt="Login" style="max-width: none; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/Schdule.png" alt="Schedule" style="max-width: none; height: auto; margin-right: 10px;">
-  <img src="https://raw.githubusercontent.com/raouf-zobir/AOT_hackthon/refs/heads/main/images/SignUp.png" alt="Sign Up" style="max-width: none; height: auto; margin-right: 10px;">
-</div>
+<style>
+  .scrollable-container {
+    display: flex;
+    overflow-x: scroll;
+    scroll-behavior: smooth;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .scrollable-container img {
+    flex-shrink: 0;
+    width: 300px;  /* Adjust based on desired image size */
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+
+  .scrollable-container:hover img {
+    transform: scale(1.1); /* Slight zoom effect on hover */
+  }
+</style>
 
 **Patients:**
 
@@ -94,19 +109,8 @@ Questions? See the "Contact Me" page on the platform.
 
 📞 Call Us: +213 540553447  
 📧 Email: aotdevimpact@gmail.com
- 
 🏢 Office: Algiers
 
 ---
 
-<p align="center">
-  <img src="images/thank_you.png" width="300" alt="Thank You">
-</p>
-
 Thanks for using **Smart Healthcare Assistant**! 🚀
-
----
-
-✅ **Important:**  
-- Make sure you place your images (`healthcare_logo.png`, `feature_overview.png`, `thank_you.png`, etc.) inside an `images/` folder in your project.
-- You can adjust image sizes (`width="300"`, etc.) depending on your design.
